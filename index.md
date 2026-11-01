@@ -1,227 +1,85 @@
-# Privacy Policy
+---
+title: Wish Privacy Policy
+lang: en
+---
 
-**Last Updated: September 17, 2026**
+# Wish Privacy Policy
 
-Wish ("Wish", "we", "our", or "the App") respects your privacy and is committed to protecting your personal information.
+**DRAFT_NOT_PUBLISHED — prepared for the account-free local photo calendar release.**
 
-This Privacy Policy explains what information may be processed when you use Wish, how that information is used, where it is stored, when it may be shared with third-party service providers, and the choices available to you.
+**Effective date: PUBLICATION_DATE_PENDING.** This preparation copy does not replace the currently published policy. The actual effective date will be inserted when the approved policy is published with the corresponding release.
 
-## 1. Information We Process
+[简体中文](privacy-zh-Hans.html) · [Support and data controls](support.html)
 
-Wish is designed to minimize the collection of personal information.
+Wish (初一十五 · 甲想, “Wish”, “we” or “the app”) is a calendar operated by the developer reachable at [sihang8973@gmail.com](mailto:sihang8973@gmail.com). This policy describes the account-free local photo calendar release and its support website. Earlier-version information is addressed in section 8.
 
-Depending on the features you use, the App may process the following types of information.
+## 1. No account is required
 
-### Account Information
+All current calendar, photo, settings and export features work without registration or login. The current app does not request an account name, email address, phone number, birthday, gender or residence to use them. It does not provide account creation, AI chat, divination or incense/blessing product flows.
 
-If you choose to sign in with Sign in with Apple, Apple may provide Wish with:
+## 2. Information kept on your device
 
-* A unique Apple user identifier
-* Your name, if you choose to share it
-* Your email address or Apple Private Relay email address, depending on your Sign in with Apple settings
+The app stores the photo copies you select, their Gregorian date associations, display preferences, reminder choices and local state needed to operate the calendar. It also creates temporary export files and limited generated image data. Calendar dates are calculated on device with bundled reference data; your date browsing is not sent to a Wish server. Basic calendar browsing supports 2000–2099; verified solar-term dates cover 2025–2030. These ranges do not expand the information we receive.
 
-Wish does not receive or have access to your Apple ID password.
+The app does not operate a server that receives calendar photos, does not provide its own cloud synchronization, and does not send your photos to an AI service. It does not include an advertising, cross-app tracking or third-party behavioral analytics SDK. We do not sell personal information or use it for advertising tracking.
 
-### Profile and App Data
+## 3. Selected-photo import and originals
 
-Information you create while using the App may include:
+When you choose Add or Replace Photo, Apple's system photo picker provides the selected image to the app. Wish does not request broad access to browse your entire system photo library. It makes a new, downsampled and normalized local copy for the selected date and does not intentionally copy the original image's EXIF/GPS metadata into the new JPEG. Content visible in the image can still reveal personal information.
 
-* Profile information
-* User preferences
-* Blessing or activity records
-* Divination-related records
-* App usage state and settings
-* AI conversation history stored by the App
-* Other content or records that you intentionally create within Wish
+The app never edits or deletes the system-library original. If your chosen image is stored in iCloud Photos, Apple's picker may first retrieve it using your Apple settings and network connection. This system retrieval is separate from an app-operated photo upload; Wish has no such upload service.
 
-Most of this information is stored locally on your device.
+## 4. Backups and retention of local data
 
-## 2. Sign in with Apple
+Local app data generally remains in the app's device storage until you replace/remove it, use an applicable clearing control, or the operating system removes it. Temporary exports are cleaned up after the sharing flow; a cleanup failure is reported for retry. Your device or computer backups may contain app data depending on your system settings. Wish does not manage those backups or promise to remove old backup copies.
 
-Wish uses Sign in with Apple to provide optional account authentication.
+Removing the app can remove its local container, but offloading, existing backups, system photo originals, exported files and separately stored credentials/authorizations have their own lifecycles. Use the app's clearing controls before removal if you want to clear the relevant local records, and manage backups and Apple settings separately. Wish does not promise recovery of deleted app copies.
 
-Authentication information provided by Apple is used only to identify your account and maintain your signed-in state within the App.
+## 5. Notifications, widgets and Live Activities
 
-Wish does not use your Sign in with Apple information for advertising, cross-app tracking, or sale to third parties.
+Daily reminders are optional local notifications. Permission is requested when you explicitly enable reminders, and the chosen clock time is stored locally. Reminder text is a fixed invitation to open today's calendar. The app does not use remote push notifications to send your calendar data to a server.
 
-Your Sign in with Apple relationship is also subject to Apple's privacy practices and account settings.
+Widgets and Live Activities display built-in neutral date/lunar/festival/solar-term information for device-local today. They do not receive your private calendar photos in this release. The operating system controls permissions, refresh timing and availability. Clearing app data does not revoke operating-system authorization.
 
-## 3. Local Data Storage
+## 6. Sharing and email feedback
 
-Wish follows a local-first data model.
+A calendar card is exported only after you choose to share/export it. The app presents the system share sheet; you choose the destination and whether to complete the action. A recipient or service can receive the card, including a photo if the chosen card contains one, and may retain it under its own practices. Deleting an app copy cannot recall a previously shared or exported copy.
 
-Most structured user data is stored locally on your device rather than being stored in a Wish-operated cloud database.
+Feedback is optional. The app can open your email app with the support address and a subject, or copy the address for you. It does not automatically send an email or attach photos, app records, logs or device identifiers. If you send a message, the operator receives the sender address, message content and any material you choose to include through the email service. We use that correspondence to respond to the request and address support issues. It may remain in the support mailbox until manually deleted; there is no automatic in-app mailbox-deletion control or promised fixed retention period. Contact us to request deletion of correspondence. Email providers and any chosen sharing destination apply their own processing and retention practices.
 
-Locally stored information may include:
+## 7. Your data-clearing choices
 
-* User profile information
-* Preferences and settings
-* Blessing and activity records
-* Divination-related records
-* Locally stored AI conversation history
-* Other App-generated records
+The app provides distinct controls with a confirmation before bulk clearing:
 
-Wish does not currently use CloudKit or iCloud as a business-data synchronization service for this information.
+| Action | App-local effect |
+| --- | --- |
+| Remove one photo | Removes that date's app copy; the built-in date artwork returns. |
+| Clear all calendar photos | Removes all app calendar-photo copies and generated photo/export data; preserves current settings and older-version records. |
+| Clear older-version local data | Removes applicable old profile/activity/chat records, scoped old credentials and related local state; preserves calendar photos and current settings. |
+| Clear all local app data | Combines photo/generated-data and older-version cleanup, restores app settings, disables/removes app reminders and ends app Live Activities. Necessary cleanup/migration completion markers remain to prevent old data from reappearing. A later app activation can construct fresh neutral calendar system content. |
 
-Some locally stored application data may be included in device backups depending on your Apple device and backup settings.
+Partial failures are reported and can be retried. None of these controls deletes system photo originals, changes system authorization, erases old backups, or removes material already exported/sent to other apps, recipients or a support mailbox. Those copies and permissions must be managed at their respective destinations.
 
-Deleting the App may remove locally stored App data from the device, although information contained in device backups may continue to exist according to Apple's backup behavior and your personal backup settings.
+## 8. Earlier versions and Apple authorization
 
-## 4. AI-Powered Features
+Earlier builds could leave local profile information, records, chat history or authentication state. The current release preserves existing calendar-photo date associations and valid display preferences during upgrade, retires old session/notification behavior, and offers the older-version cleanup described above. The developer has confirmed that the retained backend was never deployed with real user data; there is no deployed Wish account database to sign into for this release.
 
-Wish includes optional AI-powered conversational features.
+An old Sign in with Apple authorization is managed by Apple. Local cleanup does not automatically revoke it. The current app does not retain a revocable Apple token or make you log in again to clear data. After local cleanup, follow [Apple's current authorization-management instructions](https://support.apple.com/en-us/102571) if Wish or its developer still appears in your Apple Account's Sign in with Apple list. Managing that authorization is independent of deleting local app records. Wish does not claim to erase information independently held by Apple or former third-party services.
 
-When you choose to use these features, the text you submit and limited contextual information necessary to generate a response may be transmitted over the internet to a third-party artificial intelligence service provider.
+## 9. Support website and external services
 
-Wish currently uses **DeepSeek** to provide certain AI-powered conversational functionality.
+Opening this policy/help website uses your browser and network connection. It is hosted on GitHub Pages. GitHub states that it logs visitor IP addresses for security; its [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) governs its hosting-related processing. We have not added website advertising or behavioral analytics scripts. See [GitHub's Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
-Information sent to the AI service is used for the purpose of processing your request and generating the requested response.
-
-You should avoid entering highly sensitive personal information into AI-powered features unless it is necessary for your request.
-
-AI-generated content is provided for informational, cultural, and entertainment purposes and should not be treated as professional medical, legal, financial, or other professional advice.
-
-The handling of information by DeepSeek is also subject to DeepSeek's own privacy practices and terms.
-
-## 5. Third-Party Services
-
-Wish may use third-party services when they are necessary to provide specific App functionality.
-
-These services may include:
-
-* **Apple**, for Sign in with Apple and Apple platform services
-* **DeepSeek**, for optional AI-powered conversational features
-
-When third-party services are used, Wish attempts to transmit only the information reasonably necessary to provide the requested functionality.
-
-Third-party providers process information according to their own privacy policies, security practices, and applicable legal obligations.
-
-Wish does not authorize third-party service providers to use information provided through the App for unrelated advertising or cross-app tracking on our behalf.
-
-## 6. How We Use Information
-
-Information processed by Wish may be used to:
-
-* Provide and operate App functionality
-* Authenticate users who choose to sign in
-* Maintain local user preferences and application state
-* Store records created by the user
-* Provide requested AI-generated responses
-* Diagnose technical problems and maintain App reliability
-* Protect the security and integrity of the App
-* Comply with applicable legal requirements
-
-Wish does not use personal information for third-party behavioral advertising.
-
-## 7. Data Sharing
-
-Wish does not sell your personal information.
-
-Wish does not use your personal information for cross-app advertising tracking.
-
-Information may be transmitted to third-party service providers only when necessary to provide a feature that you choose to use, such as:
-
-* Apple authentication
-* AI-generated responses provided through DeepSeek
-
-We may also disclose information if required by applicable law, legal process, or a valid governmental request.
-
-## 8. Data Retention
-
-Most Wish user data is stored locally on your device.
-
-Local data generally remains on the device until one of the following occurs:
-
-* You delete the relevant data within the App
-* You delete your account
-* You delete the App
-* The App removes the data as part of its normal operation
-
-Wish does not maintain a central cloud database containing the primary structured user records described above.
-
-Information transmitted to third-party services may be retained by those providers according to their own privacy policies and legal obligations.
-
-## 9. Account and Data Deletion
-
-If you have signed in to Wish, you can initiate account deletion from within the App.
-
-When you delete your Wish account, the App removes account-related data stored locally on your device, including applicable:
-
-* Local profile information
-* Activity and user-created records
-* Divination-related records
-* Blessing-related records
-* Locally stored AI conversation history
-* Account-related local preferences or usage state
-* Local authentication information associated with the Wish account
-
-After the deletion process is completed, the App returns to a signed-out or guest state.
-
-Deleting a Wish account does not control information independently maintained by third-party providers. Information held by Apple or other third-party services remains subject to the privacy and account-management policies of those providers.
-
-If you have questions regarding deletion of your information, you may contact us using the information provided below.
+Apple platform services, device backups, email and services you explicitly choose for sharing have their own privacy practices and may process data in locations different from yours. These actions do not give Wish an app-operated photo storage or synchronization service. Support correspondence may be disclosed when required by applicable law; we do not have remote access to your app-local calendar photos to retrieve them for such a request.
 
 ## 10. Security
 
-Wish uses reasonable technical measures intended to protect information processed by the App.
+Local storage security depends in part on your device passcode, operating-system protections, access to your device and backup settings. Protect your device and sharing destinations, and avoid sending unnecessary sensitive information in feedback. No electronic storage or transmission method is guaranteed completely secure.
 
-Because most App data is stored locally, the security of that information also depends on the security of your device, including your device passcode, biometric security, operating system, and backup settings.
+## 11. Changes and questions
 
-No method of electronic storage or internet transmission can be guaranteed to be completely secure.
+We will update this policy and relevant app disclosures when the described practices change. The published version will show its actual effective date. This policy describes data practices; it does not grant rights to another person's photos or promise that deleting an app copy deletes another party's copy.
 
-## 11. Tracking and Advertising
+## 12. Contact
 
-Wish does not use your personal information for third-party advertising.
-
-Wish does not perform cross-app tracking for advertising purposes.
-
-Wish does not sell personal information to data brokers or advertising networks.
-
-If these practices change in the future, this Privacy Policy and any applicable App privacy disclosures will be updated before those changes are introduced.
-
-## 12. Children’s Privacy
-
-Wish is not designed to knowingly collect personal information from children in violation of applicable privacy laws.
-
-If you believe that a child has provided personal information in a manner that may violate applicable law, please contact us so that we can review the situation and take appropriate action.
-
-## 13. Your Choices
-
-Depending on the features you use, you may be able to:
-
-* Use portions of Wish without signing in
-* Choose whether to use Sign in with Apple
-* Choose whether to use AI-powered features
-* Delete locally stored App data
-* Delete your Wish account from within the App
-* Manage Sign in with Apple permissions through your Apple Account settings
-* Delete the App and locally stored application data from your device
-
-You may contact us if you have questions regarding your privacy or the handling of your information.
-
-## 14. International Data Processing
-
-Third-party service providers used by Wish may operate infrastructure in countries or regions different from your own.
-
-When you use functionality that depends on those services, such as AI-powered features, information necessary to provide that functionality may be processed in other jurisdictions.
-
-Such processing is subject to the relevant provider's privacy practices and applicable laws.
-
-## 15. Changes to This Privacy Policy
-
-We may update this Privacy Policy from time to time to reflect:
-
-* Changes to Wish functionality
-* Changes to third-party services
-* Changes to data-processing practices
-* Legal or regulatory requirements
-
-When this policy is updated, the "Last Updated" date at the top of this page will also be updated.
-
-The latest version of this Privacy Policy will remain available on this page.
-
-## 16. Contact
-
-If you have questions, concerns, or requests regarding this Privacy Policy or your information, please contact:
-
-**Email:** [sihang8973@gmail.com](mailto:sihang8973@gmail.com) OR [116212507@qq.com](mailto:116212507@qq.com)
+For support, privacy questions or a request about correspondence you sent, email [sihang8973@gmail.com](mailto:sihang8973@gmail.com). Describe the request without sending your full photo library, passwords or Apple credentials. We can assist with the app's controls and messages received by support; we cannot remotely delete app-local data, Apple authorizations or existing system backups.
