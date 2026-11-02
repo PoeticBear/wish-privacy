@@ -5,81 +5,70 @@ lang: en
 
 # Wish Privacy Policy
 
-**DRAFT_NOT_PUBLISHED — prepared for the account-free local photo calendar release.**
+**Effective date: November 2, 2026**
 
-**Effective date: PUBLICATION_DATE_PENDING.** This preparation copy does not replace the currently published policy. The actual effective date will be inserted when the approved policy is published with the corresponding release.
+[简体中文](privacy-zh-Hans.html) · [Support](support.html)
 
-[简体中文](privacy-zh-Hans.html) · [Support and data controls](support.html)
+Wish (初一十五 · 甲想) is an account-free photo and lunar calendar. The developer can be contacted at [sihang8973@gmail.com](mailto:sihang8973@gmail.com). This policy covers the current calendar release and this support website. Earlier versions are addressed separately below.
 
-Wish (初一十五 · 甲想, “Wish”, “we” or “the app”) is a calendar operated by the developer reachable at [sihang8973@gmail.com](mailto:sihang8973@gmail.com). This policy describes the account-free local photo calendar release and its support website. Earlier-version information is addressed in section 8.
+## 1. Accounts and data collection
 
-## 1. No account is required
+Current features do not require registration or login. The app does not provide AI chat, divination, blessing, advertising, cross-app tracking, or behavioral analytics. We do not sell personal data or use it for advertising tracking.
 
-All current calendar, photo, settings and export features work without registration or login. The current app does not request an account name, email address, phone number, birthday, gender or residence to use them. It does not provide account creation, AI chat, divination or incense/blessing product flows.
+Your calendar photos, date-bound text, important dates and reminder choices are processed on your device. They are not uploaded to a developer-operated photo, diary or account service. Optional email support is different: when you choose to send a message, the operator receives and may retain your sender address, message and chosen attachments to provide support. We disclose this support correspondence as email-address and customer-support data used for app functionality, linked to its sender, and not used for tracking.
 
-## 2. Information kept on your device
+## 2. Data stored on your device
 
-The app stores the photo copies you select, their Gregorian date associations, display preferences, reminder choices and local state needed to operate the calendar. It also creates temporary export files and limited generated image data. Calendar dates are calculated on device with bundled reference data; your date browsing is not sent to a Wish server. Basic calendar browsing supports 2000–2099; verified solar-term dates cover 2025–2030. These ranges do not expand the information we receive.
+Local records include selected calendar-photo copies, Gregorian date associations, text titles and bodies, named annual dates and reminder settings. Preferences include appearance, navigation style and optional system-surface choices. The app creates temporary share images, backup/restore working files and necessary migration/cleanup state. Basic calendar conversion and the lunar landscape use local calculations and bundled data.
 
-The app does not operate a server that receives calendar photos, does not provide its own cloud synchronization, and does not send your photos to an AI service. It does not include an advertising, cross-app tracking or third-party behavioral analytics SDK. We do not sell personal information or use it for advertising tracking.
+Data is generally retained until you replace or remove it, use the relevant clearing control, or the operating system removes the app's storage. Wish does not offer an app account or its own cloud synchronization or cloud recovery service.
 
-## 3. Selected-photo import and originals
+## 3. Photos and the optional month album
 
-When you choose Add or Replace Photo, Apple's system photo picker provides the selected image to the app. Wish does not request broad access to browse your entire system photo library. It makes a new, downsampled and normalized local copy for the selected date and does not intentionally copy the original image's EXIF/GPS metadata into the new JPEG. Content visible in the image can still reveal personal information.
+Adding or replacing a calendar photo uses Apple's system picker. Only the chosen image is imported as a resized, normalized app-owned JPEG; the original system-library image is not modified or deleted. The import does not intentionally preserve original EXIF/GPS metadata, although visible image content may itself be personal. Calendar-page cropping changes presentation rather than the saved copy.
 
-The app never edits or deletes the system-library original. If your chosen image is stored in iCloud Photos, Apple's picker may first retrieve it using your Apple settings and network connection. This system retrieval is separate from an app-operated photo upload; Wish has no such upload service.
+The separate Month Album (月令相簿) is disabled by default. If you enable it, the app requests Photos access; you may grant limited or full access and change that access in system settings. It reads authorized image identifiers, creation dates and image information to select up to six still photos from the same Gregorian month in earlier years. Hidden photos, screenshots, videos and missing dates are excluded. Selection work is bounded, so a large library may be represented only in part. Selected metadata and previews are held for local browsing, are not automatically added to calendar records, and are not uploaded to the developer.
 
-## 4. Backups and retention of local data
+Month Album downloads from iCloud are off by default. You can load one cloud-only image or enable system downloads for visible images. Apple Photos manages its own downloads and caches. Disabling the album clears app-held selections and previews but does not revoke system permission, delete originals or promise to erase Apple's caches. The album's selection identifiers, preview data and preferences are excluded from the app's portable backup.
 
-Local app data generally remains in the app's device storage until you replace/remove it, use an applicable clearing control, or the operating system removes it. Temporary exports are cleaned up after the sharing flow; a cleanup failure is reported for retry. Your device or computer backups may contain app data depending on your system settings. Wish does not manage those backups or promise to remove old backup copies.
+## 4. Weather and other external services
 
-Removing the app can remove its local container, but offloading, existing backups, system photo originals, exported files and separately stored credentials/authorizations have their own lifecycles. Use the app's clearing controls before removal if you want to clear the relevant local records, and manage backups and Apple settings separately. Wish does not promise recovery of deleted app copies.
+Current Weather is optional and opens from the calendar's More menu. You choose a supported city manually; the app does not request device-location permission. The selected city's coordinates are sent to Apple WeatherKit to obtain current weather and available historical temperature comparisons. Apple processes service requests under its own terms and privacy practices. The city choice is stored locally; weather snapshots remain in memory. Closing weather details stops its visible refresh work; disabling weather removes the city and cached data. City/weather state is excluded from the app's portable backup, widgets and calendar exports.
+
+System photo selection, optional iCloud photo loading, Files providers, notifications, widgets and sharing are Apple or user-selected services. Their network transfers and retention are separate from Wish's local storage. See [Apple's privacy policy](https://www.apple.com/legal/privacy/).
 
 ## 5. Notifications, widgets and Live Activities
 
-Daily reminders are optional local notifications. Permission is requested when you explicitly enable reminders, and the chosen clock time is stored locally. Reminder text is a fixed invitation to open today's calendar. The app does not use remote push notifications to send your calendar data to a server.
+Daily reminders and important-date reminders are separate optional local notifications. Event reminders are off by default, and notification permission is requested only after explicit enabling. Event notifications can display the saved event name and date. Delivery, permissions and timing are managed by iOS; the app queues a limited future period and does not promise indefinite or precise background delivery.
 
-Widgets and Live Activities display built-in neutral date/lunar/festival/solar-term information for device-local today. They do not receive your private calendar photos in this release. The operating system controls permissions, refresh timing and availability. Clearing app data does not revoke operating-system authorization.
+Neutral calendar widgets and Live Activities show date information. The separate important-date widget displays personal event names/dates only after you enable it in Reminders & Appearance. Displaying the occurrence's calendar photo is an additional opt-in choice. These displays can be seen by other people using or viewing your device. Diary bodies are not sent to widgets or notifications. Enabled widget content is shared locally with the app's extension; disabling the display or clearing app data removes app-owned shared content, but existing system-rendered snapshots may update later.
 
-## 6. Sharing and email feedback
+## 6. Export, portable backups and device backups
 
-A calendar card is exported only after you choose to share/export it. The app presents the system share sheet; you choose the destination and whether to complete the action. A recipient or service can receive the card, including a photo if the chosen card contains one, and may retain it under its own practices. Deleting an app copy cannot recall a previously shared or exported copy.
+Sharing requires your explicit choice in a system share sheet. Day cards include diary text only when you enable the corresponding preview option. Commemorative cards and monthly recaps can include the selected calendar photos and date information. Recipients may retain exported copies; local deletion cannot recall them.
 
-Feedback is optional. The app can open your email app with the support address and a subject, or copy the address for you. It does not automatically send an email or attach photos, app records, logs or device identifiers. If you send a message, the operator receives the sender address, message content and any material you choose to include through the email service. We use that correspondence to respond to the request and address support issues. It may remain in the support mailbox until manually deleted; there is no automatic in-app mailbox-deletion control or promised fixed retention period. Contact us to request deletion of correspondence. Email providers and any chosen sharing destination apply their own processing and retention practices.
+A manually created `.wishbackup` file contains app-owned calendar photos and date links, complete text records, important dates and their reminder choices, and supported app preferences. **It is not encrypted.** Keep it in a location you trust. The app validates and stages a selected backup before merging it into local records; you review conflicts and separately choose whether to restore settings or enable imported reminders. Copies saved through Files, iCloud Drive or another provider are controlled by those destinations. Necessary recovery files may be retained while an interrupted restore is being resolved.
 
-## 7. Your data-clearing choices
+Device/computer backups may include local app data depending on your system settings. They are separate from the app's portable backup. Wish does not control or delete existing external backups, system-library originals or previously exported copies.
 
-The app provides distinct controls with a confirmation before bulk clearing:
+## 7. Clearing local data
 
-| Action | App-local effect |
-| --- | --- |
-| Remove one photo | Removes that date's app copy; the built-in date artwork returns. |
-| Clear all calendar photos | Removes all app calendar-photo copies and generated photo/export data; preserves current settings and older-version records. |
-| Clear older-version local data | Removes applicable old profile/activity/chat records, scoped old credentials and related local state; preserves calendar photos and current settings. |
-| Clear all local app data | Combines photo/generated-data and older-version cleanup, restores app settings, disables/removes app reminders and ends app Live Activities. Necessary cleanup/migration completion markers remain to prevent old data from reappearing. A later app activation can construct fresh neutral calendar system content. |
+Removing one calendar photo preserves that day's text and important dates. Clearing all calendar photos removes app photo copies and related generated files while preserving text, important dates and current settings. Clearing older-version local data removes applicable legacy records and scoped old credentials while preserving current records and settings.
 
-Partial failures are reported and can be retried. None of these controls deletes system photo originals, changes system authorization, erases old backups, or removes material already exported/sent to other apps, recipients or a support mailbox. Those copies and permissions must be managed at their respective destinations.
+Clearing all local app data removes calendar photos, text and important dates, restores preferences, stops app reminders and Live Activities, and clears app-owned weather, album and shared-widget state. Necessary cleanup/recovery markers remain to prevent old data from reappearing. Partial failures are reported for retry. These controls do not change OS permissions, revoke Apple authorization, delete system originals, erase external backups, withdraw shared copies, or delete support email. Deleted app records may not be recoverable.
 
 ## 8. Earlier versions and Apple authorization
 
-Earlier builds could leave local profile information, records, chat history or authentication state. The current release preserves existing calendar-photo date associations and valid display preferences during upgrade, retires old session/notification behavior, and offers the older-version cleanup described above. The developer has confirmed that the retained backend was never deployed with real user data; there is no deployed Wish account database to sign into for this release.
+Earlier versions offered account-related features. Current local cleanup and Apple's Sign in with Apple authorization are separate operations. Current use does not require login, and the app does not ask you to sign in again to clear old local records. If an old authorization remains in your Apple Account, follow [Apple's instructions](https://support.apple.com/en-us/102571). Apple may group several apps under one developer; check the entry before changing it. Contact support about earlier correspondence or retained service data; local cleanup does not itself erase other services' records.
 
-An old Sign in with Apple authorization is managed by Apple. Local cleanup does not automatically revoke it. The current app does not retain a revocable Apple token or make you log in again to clear data. After local cleanup, follow [Apple's current authorization-management instructions](https://support.apple.com/en-us/102571) if Wish or its developer still appears in your Apple Account's Sign in with Apple list. Managing that authorization is independent of deleting local app records. Wish does not claim to erase information independently held by Apple or former third-party services.
+## 9. Support correspondence and this website
 
-## 9. Support website and external services
+Feedback opens your email app or copies the support address. No message is sent and no photos, records, logs or identifiers are attached automatically. Support messages are retained in the support mailbox until manually deleted, with no fixed automatic retention period promised. You may request deletion by contacting the address below. Email providers apply their own processing and retention practices.
 
-Opening this policy/help website uses your browser and network connection. It is hosted on GitHub Pages. GitHub states that it logs visitor IP addresses for security; its [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) governs its hosting-related processing. We have not added website advertising or behavioral analytics scripts. See [GitHub's Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
+This website is hosted on GitHub Pages. GitHub may log visitor IP addresses for security, as described in its [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). We add no advertising or behavioral analytics scripts to this site.
 
-Apple platform services, device backups, email and services you explicitly choose for sharing have their own privacy practices and may process data in locations different from yours. These actions do not give Wish an app-operated photo storage or synchronization service. Support correspondence may be disclosed when required by applicable law; we do not have remote access to your app-local calendar photos to retrieve them for such a request.
+## 10. Security, updates and contact
 
-## 10. Security
+Protect your device, backups and sharing destinations. No storage or transmission method is guaranteed completely secure. We will update this policy when the described practices change and show the actual effective date.
 
-Local storage security depends in part on your device passcode, operating-system protections, access to your device and backup settings. Protect your device and sharing destinations, and avoid sending unnecessary sensitive information in feedback. No electronic storage or transmission method is guaranteed completely secure.
-
-## 11. Changes and questions
-
-We will update this policy and relevant app disclosures when the described practices change. The published version will show its actual effective date. This policy describes data practices; it does not grant rights to another person's photos or promise that deleting an app copy deletes another party's copy.
-
-## 12. Contact
-
-For support, privacy questions or a request about correspondence you sent, email [sihang8973@gmail.com](mailto:sihang8973@gmail.com). Describe the request without sending your full photo library, passwords or Apple credentials. We can assist with the app's controls and messages received by support; we cannot remotely delete app-local data, Apple authorizations or existing system backups.
+For support, privacy questions or deletion of support correspondence, contact [sihang8973@gmail.com](mailto:sihang8973@gmail.com). Do not send passwords, Apple credentials or your full private photo library. The developer cannot remotely operate your local records, revoke Apple permissions or erase existing system backups.

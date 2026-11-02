@@ -5,63 +5,52 @@ lang: en
 
 # Wish Support and Data Controls
 
-**DRAFT_NOT_PUBLISHED — release preparation. Effective date: PUBLICATION_DATE_PENDING.**
+**Updated: November 2, 2026**
 
-[简体中文](support-zh-Hans.html) · [Privacy Policy](index.html)
+[简体中文](support-zh-Hans.html) · [Privacy policy](index.html)
 
-## 1. Use the calendar without an account
+## Browse and record a day
 
-Wish (初一十五 · 甲想) is a local photo and Chinese lunar calendar. No registration or login is needed. Basic calendar browsing supports Gregorian years 2000–2099. Solar-term dates have been verified for 2025–2030; outside that range, basic dates/photos still work and unavailable solar terms are omitted. Today follows the device's local Gregorian date. Photos keep their original Gregorian date association when the time zone changes.
+No account is required. Turn calendar pages, open the month from the date panel, or return to today using the Calendar tab. Gregorian/lunar dates and records support 2000–2099; verified solar terms cover 2025–2030. Unsupported terms are omitted.
 
-## 2. Add or replace a photo
+Use the photo button to add, replace or remove one app-owned photo per date, including festivals and solar terms. Personal photos fill the upper calendar area with a centered crop; the system original is unchanged.
 
-Open the desired calendar date and tap its plus/photo control. Choose an image in the system picker. One app-local photo copy can be stored for each supported date, including festivals and solar-term dates. A personal photo takes priority over built-in artwork. If a copy already exists, the photo menu offers “更换照片” (Replace) and “移除照片” (Remove). Replacing/removing affects the app copy only, never the system-library original.
+From More (更多), choose Record This Day (记录这一天). Write directly on the diary page and add a title only if wanted. The title limit is 40 characters and the body limit is 500; at least one must be nonblank. Save explicitly; leaving an unsaved draft offers a discard choice. Removing a photo preserves text; deleting text preserves photos and important dates.
 
-An iCloud-only selection may need the system to retrieve the image first. If import fails, check the network needed by the system picker and available device storage, then retry or choose another image. Canceling an import or leaving its page must not be treated as a successful save. An unreadable app copy can be removed or replaced through its photo menu.
+## Birthdays, anniversaries and reminders
 
-## 3. Browse saved photo dates
+Open Important Dates (重要日子) from More. Choose an occasion, name the card and tap its date to choose an annual Gregorian or lunar month/day, including a leap-month rule. No original year, age or anniversary count is needed. Saved cards show the next occurrence and days remaining, with actions to open the calendar or create a commemorative card.
 
-Open My (“我的”) → My Photos (“我的照片”). Entries are grouped by their actual Gregorian date association and can open that date in Calendar. Month-grid photo markers identify saved app copies. Removing an entry returns the corresponding day to its built-in appearance. Photos are local to the installation; there is no Wish account or app-operated cloud synchronization from which to restore a deleted app copy.
+Event reminders default off. Choose Remind Me, then the same day or 1/3/7 days before and a clock time. Permission is requested only when explicitly enabling and saving. The detail page has a separate reminder panel. Denied notification access does not prevent saving. Daily reminders are configured separately in My → Reminders & Appearance.
 
-## 4. Export a calendar card
+February 29 falls on February 28 in common years; an absent leap lunar month falls back to the regular namesake; lunar day 30 in a short month falls on its last day. Original rules are preserved. Lunar conversion uses the fixed UTC+08 basis. Notifications have bounded future coverage and iOS-controlled delivery; reopen the app periodically and inspect actual reminder status. Date/reminder rules are available from the page menu.
 
-Select the intended date, then use “分享日历卡片” (Share Calendar Card). Review the frozen card preview and choose “导出或分享” to open the system share sheet. The card may include the personal photo for that date. You control its destination and whether it is sent. Canceling the sheet does not authorize a send. Copies saved or sent elsewhere are managed by that destination; app clearing cannot recall them. Retry a reported temporary-file cleanup failure using the displayed action.
+## Records, memories and sharing
 
-## 5. Optional daily reminders
+My Records (我的记录) offers list, month and memories views. Photos and text are bound to Gregorian civil dates; a date is counted once. Browse a range or revisit earlier Gregorian/lunar same-day records. Changing device time zone does not move existing date associations.
 
-My → “提醒与外观” opens reminder and appearance choices. Enable reminders explicitly, allow notifications if desired and choose a clock time. The app schedules a repeating local reminder with fixed neutral calendar text. Notification permission can also be managed in system Settings. Denying or revoking it does not prevent calendar use. If the app reports an update failure, retry and check system notification settings rather than assuming a reminder was successfully stopped or created.
+More → Share Calendar Card opens a preview. Including diary text defaults off. Important-date details can create a commemorative card; the record month view can export that month's photo recap. Review the dates and images, then choose a destination in the share sheet. Local cleanup cannot recall external copies.
 
-Tapping a recognized calendar reminder opens actual local today, including when you were browsing a historical photo. Clock/time-zone/DST behavior and delivery are controlled by iOS. The app does not promise delivery while notifications are denied or exact OS presentation timing.
+## Month Album, current weather and lunar landscape
 
-## 6. Widgets and Live Activities
+Month Album (月令相簿) under My requires explicit opt-in and limited/full Photos permission. It selects up to six still images from the same Gregorian month in earlier years, rotating at lunar first/fifteenth boundaries when the pool permits. Tap to enlarge, swipe between previews or pull to refresh. Large libraries may be covered only in part. An empty state does not create records. Photo access, optional iCloud downloading, disable and help controls are in its top-right menu. Downloads default off; one cloud-only photo can be loaded separately.
 
-System surfaces show today's built-in date/lunar/festival/term information, not your selected historical page or private photos. You can add/remove widgets through the system. Live Activities depend on device/OS support and authorization. Stale content can ask you to reopen Wish; the system controls refresh and lifetime. Opening the app reconstructs current neutral information. All-data clearing ends old activities and invalidates relevant state; later activation may create fresh neutral content.
+More → Current Weather uses a manually selected supported city and the city's current date, independently of a browsed historical/future calendar date. It needs a network connection, not device-location permission. Visible details refresh as needed; stale information is marked. You can change the city or disable weather.
 
-## 7. Choose the correct clearing scope
+More → Lunar Landscape opens today's local landscape. It evolves through the lunar month without attendance or care. Its clock-based decorative lighting is not real sunrise or weather information. The landscape works offline.
 
-My → “本机数据管理” (Local Data Management) provides three distinct bulk actions. Read the scope and confirm; partial failures are shown for retry.
+## Widgets and Live Activities
 
-| Action | What it changes | What it preserves |
-| --- | --- | --- |
-| Remove one photo from a date or My Photos | One app-local date photo | Other app photos, settings, system original |
-| “清理全部日历照片” | All calendar-photo copies and generated photo/export data | Current settings and older-version records |
-| “清理旧版本机资料” | Applicable old profile/records/chat/scoped credentials/local state | Current calendar photos and settings |
-| “清理全部本机应用数据” | Photos/generated data and old records; resets settings; removes app reminders and ends app activities | Required cleanup/migration completion markers; system originals/permissions and old backups are outside app clearing |
+Neutral calendar widgets and Live Activities show date information. Personal important-date widget display defaults off; displaying the occurrence's calendar photo is a separate choice in Reminders & Appearance. Other people may see Home Screen information. Diary bodies do not enter widgets or notifications. System refresh timing applies, and previously rendered snapshots may update later after disabling or restoring data.
 
-A clear operation does not delete exported files, recipients' copies or support email. It does not change notification/Photos/Apple authorization or remove a device backup. Manage those separately. Deletion can be irreversible; Wish does not provide a cloud recovery service.
+## Backup, restore and cleanup
 
-## 8. Earlier Sign in with Apple authorization
+My → Local Data Management creates a portable backup or merges a chosen backup file. A `.wishbackup` contains app photos, full text, important dates and supported settings and is not encrypted. Keep it safe. Check restore previews, conflicts and separate settings/reminder choices, then wait for processing to finish. Wish has no cloud-sync service; Files/iCloud Drive providers manage their own transfer.
 
-You do not need to sign in to use this release or clear older local data. First complete the older-version local cleanup in Local Data Management. The Apple-help action becomes available after successful cleanup. Then follow [Apple's current instructions](https://support.apple.com/en-us/102571) to find and manage an earlier Wish/developer entry in your Apple Account's Sign in with Apple settings, if one exists. Apple may group several apps under a developer; inspect the selected entry before changing it.
+Single-photo removal, all-calendar-photo cleanup, older-version cleanup and full app-data reset have different scopes, shown before confirmation. They do not delete system originals, revoke OS permissions, erase existing backups or recall shared copies. Full cleanup removes current records and resets preferences; older-version cleanup preserves current records. Manage old Sign in with Apple authorization separately using [Apple's instructions](https://support.apple.com/en-us/102571), without signing in again to Wish.
 
-Local cleanup does not automatically revoke Apple authorization. The current release has no retained revocable Apple token. Managing Apple authorization does not itself delete local photo copies, old backups or records independently retained by another service. If no Wish/developer entry appears, do not create a new login merely to look for one.
+## Device support and contact
 
-## 9. Backups, offline use and device support
+The current release targets iPhone with iOS 17 or later. Widgets, Liquid Glass, weather comparisons and other system features depend on the device, OS, permissions and available data. No separate Watch, Mac or Vision product is promised.
 
-Core local calendar and saved-photo features can work offline. Selecting an iCloud-only image, opening web help/policy or sending to an online share/email destination may require a connection. OS/computer backups follow your own settings and can contain app data; manage them through the relevant system. App clearing does not edit existing backups.
-
-This release is configured for iPhone on iOS 17 or later. iPad use is in compatible iPhone mode; no native iPad, Watch, Mac or Apple Vision product is promised here. Calendar pages can use supported landscape layouts; some settings remain portrait. System features depend on the actual device and OS.
-
-## 10. Contact and useful feedback
-
-Use My → “意见反馈” to open your email app or copy [sihang8973@gmail.com](mailto:sihang8973@gmail.com). You decide whether to send. The app does not automatically attach data. If useful, manually include the app version/build shown in About, device/OS, the relevant date and steps that reproduce the problem. Share a screenshot only if you want to, after checking it for private content. Never send passwords, Apple credentials or an entire private photo library. See the [privacy policy](index.html) for support-mail retention and deletion requests.
+Use My → Feedback or email [sihang8973@gmail.com](mailto:sihang8973@gmail.com). You may include the version/build, device/OS, relevant date and reproduction steps. The app attaches nothing automatically. Do not send passwords, Apple credentials or a full private photo library. See the [privacy policy](index.html) for support-message retention and deletion requests.

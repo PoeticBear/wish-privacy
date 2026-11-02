@@ -1,5 +1,5 @@
 # Wish privacy and support
 
-This repository is the source of https://poeticbear.github.io/wish-privacy/ .
+This repository publishes the privacy and support pages for 初一十五 · 甲想 at https://poeticbear.github.io/wish-privacy/ . GitHub Pages serves the `main` branch root.
 
-The `codex/local-photo-calendar-policy` branch prepares the account-free local photo calendar policy and help pages. It is not deployed. Follow [PUBLICATION-CHECKLIST.md](PUBLICATION-CHECKLIST.md) for review, actual effective-date insertion and the separately approved R01 publication/read-back. Do not treat preparation-branch text as an already effective policy.
+The November 2, 2026 policy covers the account-free calendar, date text, annual important dates, optional private widgets, portable backups, manual-city weather and opt-in Month Album. See [PUBLICATION-CHECKLIST.md](PUBLICATION-CHECKLIST.md) for publication evidence and scope.
